@@ -16,8 +16,8 @@ void setup() {
 // Main method
 void loop(){
 
-  cm = (duration/2) / 29.1;
-  inches = (duration/2) / 74; 
+  cm = (duration / 2) / 29.1;
+  inches = (duration / 2) / 74; 
   
   // Turns the output of the sensor off, on, and then off
   digitalWrite(trigPin, LOW);
